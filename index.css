@@ -1,3 +1,6 @@
+.contenir{
+    background-position: center;
+}
 .navbar{
     background-color: green;
     overflow: hidden;
@@ -24,11 +27,13 @@
 /* Style pour le contenu */
 .content {
     padding: 20px;
-    text-align: center;
 }
 .content p {
     font-size: 28px;
     margin-bottom: 20px;
+    margin-top: 50px;
+    color: black;
+
 }
 .content button {
     background-color: black;
@@ -40,4 +45,20 @@
 }
 .content button:hover {
     background-color: green;
+}
+/* Style pour le pied de page */
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer p:hover {
+    text-decoration: underline;
 }
