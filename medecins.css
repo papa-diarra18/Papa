@@ -21,3 +21,68 @@
 .navbar ul li a:hover {
     text-decoration: underline;
 }
+
+/* Style pour le contenu */
+.content {
+    padding: 20px;
+}
+.content p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: black;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+.content button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content button:hover {
+    background-color: green;
+}
+.card img {
+    width: 600px;
+    height: 700px;
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 15px;
+}
+.card {
+    display: flex;
+    /* align-items: center; */
+    gap: 40px;
+}
+/* Style pour le pied de page */
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer p:hover {
+    text-decoration: underline;
+}
+

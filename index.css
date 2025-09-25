@@ -1,5 +1,6 @@
 .contenir{
-    background-position: center;
+    background-image: url(background.jpg);
+    background-size: cover;
 }
 .navbar{
     background-color: green;
