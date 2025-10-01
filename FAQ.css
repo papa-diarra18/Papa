@@ -1,0 +1,85 @@
+.navbar{
+    background-color: green;
+    overflow: hidden;
+    /* padding: 14px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.navbar ul li {
+    margin-right: 30px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.box {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    max-width: 1000px;
+    margin: auto;
+}
+.box h1 {
+    text-align: center;
+    color: green;
+}
+.box h1:hover {
+    text-decoration: underline;
+}
+.box h2 {
+    font-size: 30px;
+}
+.box h2:hover {
+    color: green;
+    text-decoration: underline;
+}
+.question {
+    margin-bottom: 20px;
+}
+.question h3 {
+    color: green;
+    font-size: 20px;
+}
+.question p {
+    margin-left: 20px;
+    font-size: 24px;
+}
+.question h3:hover {
+    text-decoration: underline;
+}
+.question p:hover {
+    text-decoration: underline;
+}
+/* Style pour le pied de page */
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer p:hover {
+    text-decoration: underline;
+}

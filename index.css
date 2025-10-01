@@ -1,0 +1,83 @@
+.non{
+    background-image: url(logo\ accueil.jpg);
+    background-size: cover;
+}
+.navbar{
+    background-color: rgba(129, 192, 201, 0.888);
+    overflow: hidden;
+    /* padding: 14px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+}
+.h1:hover{
+    text-decoration: underline;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li {
+    margin-right: 30px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+/* Style pour le contenu */
+.content {
+    padding-left: 100px;
+}
+.content p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: black;
+
+}
+.content button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.content button:hover {
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
+}
+.propos h1{
+    text-align: center;
+}
+.propos h1:hover{
+    text-decoration: underline;
+}
+/* Style pour le pied de page */
+.footer {
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer p:hover {
+    text-decoration: underline;
+}
