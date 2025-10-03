@@ -1,21 +1,24 @@
 .navbar{
-    background-color: green;
+    background-color: rgba(129, 192, 201, 0.888);
     overflow: hidden;
     /* padding: 14px 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
-.navbar ul {
-    list-style-type: none;
-    display: flex;
+.h1{
+    text-align: center;
+}
+.h1:hover{
+    text-decoration: underline;
 }
 .logo img{
     width: 100px;
     height: 100px;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
 }
 .navbar ul li {
     margin-right: 30px;
@@ -28,6 +31,7 @@
 .navbar ul li a:hover {
     text-decoration: underline;
 }
+/* contenu */
 .box {
     background-color: lightgray;
     padding: 20px;
@@ -38,7 +42,7 @@
 }
 .box h1 {
     text-align: center;
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
 }
 .box h1:hover {
     text-decoration: underline;
@@ -47,14 +51,14 @@
     font-size: 30px;
 }
 .box h2:hover {
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     text-decoration: underline;
 }
 .question {
     margin-bottom: 20px;
 }
 .question h3 {
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     font-size: 20px;
 }
 .question p {
@@ -69,8 +73,8 @@
 }
 /* Style pour le pied de page */
 .footer {
-    background-color: green;
-    color: white;
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
     text-align: center;
     padding: 10px 0;
     width: 100%;

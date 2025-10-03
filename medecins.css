@@ -1,13 +1,16 @@
 .navbar{
-    background-color: green;
+    background-color: rgba(129, 192, 201, 0.888);
     overflow: hidden;
     /* padding: 14px 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
+}
+.h1{
+    text-align: center;
+}
+.h1:hover{
+    text-decoration: underline;
 }
 .logo img{
     width: 100px;
@@ -48,7 +51,7 @@
 }
 .card h3 {
     margin-top: 0;
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
 }
 .card p {
     color: black;
@@ -66,7 +69,7 @@
     font-size: 16px;
 }
 .content button:hover {
-    background-color: green;
+    background-color: rgba(129, 192, 201, 0.888);
 }
 .card img {
     width: 600px;
@@ -91,7 +94,7 @@ h3:hover {
 }
 h1{
     text-align: center;
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -101,8 +104,8 @@ h1:hover {
 }
 /* Style pour le pied de page */
 .footer {
-    background-color: green;
-    color: white;
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
     text-align: center;
     padding: 10px 0;
     width: 100%;

@@ -1,11 +1,16 @@
 .navbar{
-    background-color: green;
+    background-color: rgba(129, 192, 201, 0.888);
     overflow: hidden;
     /* padding: 14px 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+}
+.h1{
+    text-align: center;
+}
+.h1:hover{
+    text-decoration: underline;
 }
 .logo img{
     width: 100px;
@@ -26,9 +31,10 @@
 .navbar ul li a:hover {
     text-decoration: underline;
 }
+/* contenu */
 .contenir h1{
     text-align: center;
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     font-size: 40px;
 }
 .contenir form{
@@ -58,7 +64,8 @@
     font-size: 16px;
 }
 .contenir button:hover{
-    background-color: green;
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
 }
 .position{
     display: flex;
@@ -66,7 +73,7 @@
     margin-top: 20px;
 }
 .position iframe{
-    border: 2px solid green;
+    border: 2px solid rgba(129, 192, 201, 0.888);
     border-radius: 8px;
     box-shadow: 0 0 20px black;
     width: 600px;
@@ -78,7 +85,7 @@
 }
 h1{
     text-align: center;
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     font-size: 40px;
 }
 h1:hover {
@@ -88,7 +95,7 @@ h2 {
     font-size: 30px;
 }
 h2:hover {
-    color: green;
+    color: rgba(129, 192, 201, 0.888);
     text-decoration: underline;
 }
 .form-container{
@@ -103,11 +110,11 @@ h2:hover {
     transform: scale(1.02);
     transition: transform 0.3s;
 }
-}
+
 /* Style pour le pied de page */
 .footer {
-    background-color: green;
-    color: white;
+    background-color: rgba(129, 192, 201, 0.888);
+    color: black;
     text-align: center;
     padding: 10px 0;
     width: 100%;
