@@ -65,7 +65,7 @@
 }
 .contenir button:hover{
     background-color: rgba(129, 192, 201, 0.888);
-    color: black;
+    color: black ;
 }
 .position{
     display: flex;
