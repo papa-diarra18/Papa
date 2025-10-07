@@ -1,35 +1,40 @@
-.navbar{
+.menu{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
     background-color: rgba(129, 192, 201, 0.888);
-    overflow: hidden;
-    /* padding: 14px 20px; */
+}
+.menu ul li a:hover {
+    background-color: black;
+}
+.menu > ul{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    list-style: none;
+    font-size: 30px;
 }
-.h1{
-    text-align: center;
-}
-.h1:hover{
-    text-decoration: underline;
-}
-.logo img{
-    width: 100px;
-    height: 100px;
-}
-.navbar ul {
-    list-style-type: none;
-    display: flex;
-}
-.navbar ul li {
-    margin-right: 30px;
-}
-.navbar ul li a {
-    color: white;
+.menu li a {
     text-decoration: none;
-    font-size: 25px;
+    display: block;
+    padding:10px 20px;
+    color: white;
 }
-.navbar ul li a:hover {
-    text-decoration: underline;
+.sous-menu{
+    list-style: none;
+    display: none; /*n'affiche pas */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-size: 25px;
+    width: fit-content;
+}
+.menu-du-sous{
+    position: relative;
+}
+.menu-du-sous:hover .sous-menu{
+    display: block;
+    background-color: rgba(129, 192, 201, 0.888);
 }
 
 /* Style pour le contenu */
